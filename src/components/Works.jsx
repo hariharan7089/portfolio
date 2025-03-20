@@ -18,17 +18,23 @@ const ProjectCard = ({
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{
-          max: 45,
+          max: 40,
           scale: 1,
           speed: 450,
         }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+        whileHover={{ scale: 1.02 }}
       >
-        <div className="relative w-full   h-[230px]">
-          <img
+        <motion.div
+          className="relative w-full h-[230px] overflow-hidden rounded-2xl"
+        // Slight card zoom
+        >
+          <motion.img
             src={image}
             alt={name}
-            className="w-full h-full  rounded-2xl hover:scale-110 transition-transform ease-linear "
+            className="w-full h-full rounded-2xl"
+            whileHover={{ scale: 2.1 }} // Image zooms on card hover
+            transition={{ duration: 0.3, ease: "easeInOut" }}
           />
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
@@ -42,8 +48,8 @@ const ProjectCard = ({
               />
             </div>
           </div>
-        </div>
-        <div className="mt-5 ">
+        </motion.div>
+        <div className="mt-5">
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
         </div>

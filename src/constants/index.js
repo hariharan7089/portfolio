@@ -195,26 +195,115 @@ const testimonials = [
   {
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+    name: "Deepath",
+    designation: "Co-Founder",
+    company: "ULN labs",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+    name: "Antony dass",
+    designation: "Human Resource",
+    company: "VY System",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+    name: "Lokesh Kumar",
+    designation: "Front End Developer",
+    company: "UST",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
+    
+  },
+  {
+    testimonial:
+      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Lokesh Kumar",
+    designation: "Front End Developer",
+    company: "UST",
+    image: "https://randomuser.me/api/portraits/women/6.jpg",
+  },
+  {
+    testimonial:
+      "Hariharan's full-stack expertise brought our project to life. His no-code/low-code platform concept is revolutionary and will empower countless developers and businesses!",
+    name: "Aarav Sharma",
+    designation: "Software Engineer",
+    company: "CodeCrafters",
+    image: "https://randomuser.me/api/portraits/men/1.jpg",
+  },
+  {
+    testimonial:
+      "The drag-and-drop web builder he developed is seamless and efficient. His ability to merge React.js with backend logic is truly impressive!",
+    name: "Mira Patel",
+    designation: "Project Manager",
+    company: "SkyTech Solutions",
+    image: "https://randomuser.me/api/portraits/women/2.jpg",
+  },
+  {
+    testimonial:
+      "Hariharan's approach to full-stack development is innovative. The way he integrates AI-powered sketch-to-code conversion is game-changing!",
+    name: "Rohan Verma",
+    designation: "Product Manager",
+    company: "BrightPath Digital",
+    image: "https://randomuser.me/api/portraits/men/3.jpg",
+  },
+  {
+    testimonial:
+      "His deep understanding of MongoDB, Node.js, and React.js made our project scalable and efficient. He’s truly a problem solver!",
+    name: "Sanya Kapoor",
+    designation: "Software Architect",
+    company: "InnoWave Creations",
+    image: "https://randomuser.me/api/portraits/women/4.jpg",
+  },
+  {
+    testimonial:
+      "We were struggling with API integrations, but Hariharan’s expertise made the entire process smooth. His low-code platform will make web development easier for many!",
+    name: "Vikram Singh",
+    designation: "CEO",
+    company: "NextGen Tech",
+    image: "https://randomuser.me/api/portraits/men/5.jpg",
+  },
+  {
+    testimonial:
+      "His full-stack skills, combined with his knowledge of AI and machine learning, make him a standout developer. His sketch-to-code idea has great potential!",
+    name: "Ananya Iyer",
+    designation: "AI Researcher",
+    company: "SwiftLogic Systems",
+    image: "https://randomuser.me/api/portraits/women/6.jpg",
+  },
+  {
+    testimonial:
+      "Hariharan’s work on integrating PyTorch and EasyOCR for UI generation is impressive. He has a unique vision for the future of web development!",
+    name: "Kunal Mehta",
+    designation: "CTO",
+    company: "PixelDynamics",
+    image: "https://randomuser.me/api/portraits/men/7.jpg",
+  },
+  {
+    testimonial:
+      "His ability to blend UI/UX with backend logic is remarkable. The project he is building will change how developers create web apps!",
+    name: "Neha Desai",
+    designation: "UX Designer",
+    company: "Zenith Solutions",
+    image: "https://randomuser.me/api/portraits/women/8.jpg",
+  },
+  {
+    testimonial:
+      "Hariharan understands the full tech stack inside out. His vision for an AI-assisted coding tool is something the industry needs!",
+    name: "Siddharth Jain",
+    designation: "Business Analyst",
+    company: "QuantumEdge",
+    image: "https://randomuser.me/api/portraits/men/9.jpg",
+  },
+  {
+    testimonial:
+      "The low-code platform Hariharan is developing has the potential to change how businesses build web apps. Excited to see it in action!",
+    name: "Priya Reddy",
+    designation: "Startup Founder",
+    company: "Visionary Studios",
+    image: "https://randomuser.me/api/portraits/women/10.jpg",
   },
 ];
 
@@ -293,29 +382,29 @@ const projects = [
       "https://easebot.haridev.tech",
   },
   {
-    name: "PARCARE",
+    name: "Full Stack Developer",
     description:
-      "Positive and engaging user experience design. The main goal of app is ease parking and save user's time by collaborating with private parking areas.",
+      "A web-based freelancer-client platform that connects freelancers with potential clients, enabling seamless collaboration. The platform includes features like user authentication, real-time updates, and a responsive design for an optimized user experience.",
     tags: [
       {
-        name: "UI/UX",
+        name: "React.js",
         color: "pink-text-gradient",
       },
       {
-        name: "figma",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
-        name: "inkscape",
+        name: "Firebase",
         color: "green-text-gradient",
       },
       {
-        name: "coolers",
+        name: "shadCDN",
         color: "pink-text-gradient",
       },
     ],
-    image: parcare,
-    source_code_link: "https://www.behance.net/gallery/207227903/PARCARE",
+    image:"/project/Skillmate1.png" ,
+    source_code_link: "https://skillmate-ai.firebaseapp.com/",
   },
 ];
 

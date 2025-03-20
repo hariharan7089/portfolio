@@ -30,8 +30,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_rs0rx2c",
-        "template_wn0htpm",
+        "service_su0vxtm",
+        "template_zipcoso",
         {
           from_name: form.name,
           to_name: "Hariharan k",
@@ -39,7 +39,7 @@ const Contact = () => {
           to_email: "hariharank007089@gmail.com",
           message: form.message,
         },
-        "6kLPGFk6o4Oyb0utZ"
+        "t1ChhEHYly_ekEaYD"
       )
       .then(
         () => {
@@ -52,7 +52,7 @@ const Contact = () => {
             message: "",
           });
 
-          // Hide toast after 3 seconds
+          
           setTimeout(() => {
             setShowToast(false);
           }, 3000);
