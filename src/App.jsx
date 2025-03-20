@@ -49,7 +49,7 @@ const App = () => {
                       <p className={`${styles.heroSubText} mt-2 text-white-100`}>
                         Passionate about building scalable web applications with modern technologies.
                       </p>
-                      <div className="h-fit p-4 ">
+                      <div className="h-fit  flex justify-center items-center ">
                         <img src="/Hari.png" alt="" className=" rounded-full  shadow-2xl mix-blend-lighten" />
                         
                       </div>
