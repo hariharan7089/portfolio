@@ -33,6 +33,8 @@ import Webdev from "./webdev.png"
 import h1 from "./h1.png"
 
 
+
+
 export {
   logo,
   backend,
@@ -63,5 +65,6 @@ export {
   jobit,
   tripguide,
   Webdev,
-  h1
+  h1,
+
 };

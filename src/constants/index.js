@@ -20,7 +20,7 @@ import {
   tripguide,
   typescript,
   web,
-  h1
+  h1,
 } from "../assets";
 import kotlin from "../assets/tech/kotlin.svg";
 import postman from "../assets/tech/postman.png";
@@ -220,12 +220,12 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Task Manager",
+    name: "Back End Developer",
     description:
-      "Web application which helps users to create and manage daily tasks, add calendar events, store and view  users PDF file",
+      "A web application designed to optimize stock management by tracking products, managing orders, and providing real-time inventory updates.",
     tags: [
       {
-        name: "react",
+        name: "Next.js",
         color: "blue-text-gradient",
       },
       {
@@ -233,39 +233,47 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "React.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tailwindcss",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/IndiraPriyadharshini-63/REACT-CRUD",
+    image: "/project/shopify.png",
+    source_code_link: "https://inventory.haridev.tech/",
   },
   {
-    name: "Sorting Visualizer",
+    name: "Back End Developer",
     description:
-      "Web application using React JS to visualize how various sorting algorithms work",
+      "A voice-based announcement system where admins can send messages that are displayed in the application and read aloud using a Text-to-Speech (TTS) system, ensuring important updates reach all users clearly",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Text-to-Speech (TTS) API",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: " MongoDB",
         color: "pink-text-gradient",
       },
+      {
+        name: "Node",
+        color: "green-text-gradient",
+      },
     ],
-    image: sorting,
+    image:"/project/easebot.png" ,
     source_code_link:
-      "https://github.com/IndiraPriyadharshini-63/SortingVisualizer",
+      "https://easebot.haridev.tech",
   },
   {
-    name: "ResumeCrafter",
+    name: "Full Stack Developer",
     description:
-      "A comprehensive web application that allows users to create resume.",
+      "A 3D interactive application that provides a virtual model of the college, allowing students—especially new joiners—to explore and navigate different rooms and locations within the campus",
     tags: [
       {
         name: "react",
@@ -276,13 +284,13 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "mui",
+        name: "blender",
         color: "pink-text-gradient",
       },
     ],
-    image: resume,
+    image: "/project/easebot2.png",
     source_code_link:
-      "https://github.com/IndiraPriyadharshini-63/Resume-Builder",
+      "https://easebot.haridev.tech",
   },
   {
     name: "PARCARE",
